@@ -20,7 +20,7 @@ def about():
   return render_template("about.html")
 
 @app.route('/test')
-def about():
+def test():
   parametri = ["Augums", "Svars", "Vecums"]
   return render_template("test.html", param = parametri)
 
