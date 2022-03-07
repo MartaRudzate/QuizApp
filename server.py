@@ -13,11 +13,11 @@ def root():
 #Pārbaudes lapa, lai saprastu, ka kods vispār strādā
 @app.route('/health')
 def health():
-  return render_template("about.html")
+  return "OK"
 
 @app.route('/about')
 def about():
-  return "OK"
+  return render_template("about.html")
 
 if __name__ == '__main__':
   app.run(debug="true")
