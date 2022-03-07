@@ -19,5 +19,10 @@ def health():
 def about():
   return render_template("about.html")
 
+@app.route('/test')
+def about():
+  parametri = ["Augums", "Svars", "Vecums"]
+  return render_template("test.html", param = parametri)
+
 if __name__ == '__main__':
   app.run(debug="true")
