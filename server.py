@@ -5,6 +5,22 @@ from flask import *
 
 app = Flask(__name__)
 
+
+def loadAllPictures():
+  filepath = "picDV.txt"
+  pictures = []
+  with open(filepath) as fp:
+    line = fp.readline()
+    cnt = 1
+    while line:
+      if line!="":
+        fullPicInfo = line.strip().split(";")
+        pictures.append(fullPicInfo[1])
+      line = fp.readline()
+      cnt += 1
+    fp.close()
+  return pictures
+
 #Pirmā lapa, kas tiks ielādēta
 @app.route('/',methods = ['POST', 'GET'])
 def root():
@@ -22,7 +38,7 @@ def about():
 @app.route('/test')
 def test():
   parametri = ["Augums", "Svars", "Vecums"]
-  images = ["https://cdn.wallpapersafari.com/85/47/LIbvrV.jpg", "https://p4.wallpaperbetter.com/wallpaper/801/136/845/cat-4k-widescreen-hd-wallpaper-preview.jpg", "https://c4.wallpaperflare.com/wallpaper/182/1020/990/photography-manipulation-cat-heterochromia-wallpaper-preview.jpg"]
+  images = loadAllPictures()
   return render_template("test.html", param = parametri, p = images)
 
 if __name__ == '__main__':
