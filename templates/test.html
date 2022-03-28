@@ -1,7 +1,14 @@
 <html>
     <body>
+        <h1>Parametri no servera</h1>
         {% for pic in pictures %}
-        <h1>{{par}}</h1>
+        <h1>{{pic}}</h1>
+        {% endfor %}
+        
+        {% for image in images %}
+        <img src="{{image}}" width="700"/>
+        <h1>{{pic}}</h1>
+        <br>
         {% endfor %}
     </body>
 </html>

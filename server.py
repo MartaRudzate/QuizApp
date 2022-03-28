@@ -22,6 +22,7 @@ def about():
 @app.route('/test')
 def test():
   parametri = ["Augums", "Svars", "Vecums"]
+  images = ["https://cdn.wallpapersafari.com/85/47/LIbvrV.jpg", "https://p4.wallpaperbetter.com/wallpaper/801/136/845/cat-4k-widescreen-hd-wallpaper-preview.jpg", "https://c4.wallpaperflare.com/wallpaper/182/1020/990/photography-manipulation-cat-heterochromia-wallpaper-preview.jpg"]
   return render_template("test.html", param = parametri)
 
 if __name__ == '__main__':
