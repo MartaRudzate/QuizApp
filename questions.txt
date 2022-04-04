@@ -1,2 +1,20 @@
-;Jautājums:Atbilde1-Atbilde2-Atbilde3-Atbilde4
-;Jautājums:Atbilde1-Atbilde2-Atbilde3-Atbilde4
+;What is the name given to a network designed to allow communication within an organization?:Intranet-google-wifi-computer
+;Apple, HP, and Microsoft were all started in what sort of building?:A garage-school-home-car
+;What sort of animal is Tux, the official mascot of the Linux operating system?:Penguin-fox-apple-dog
+;In July 2017, Adobe Systems made headlines by announcing it was going to phase out which plug-in by the end of 2020?:Flash Player-Flash Gamer-Flash doer-Flash something
+;What does the acronym BIOS stand for?:Basic Input Output Services-Be Ill only stuck- back is on sock- bonce in overall soth
+;Which letter do your press with the 'control button' to select the contents of an entire web page?:The letter 'A'- 'Z'-'X'-'V'
+;Which digital currency is the most well known cryptocurrency?:Bitcoin-Euro-Dollars-Lati
+;What term is used for a network security system that prevents unauthorized access to or from a private network?:Firewall-Antivirus-Block-Virus
+;What is the name of the well known spreadsheet software developed by Microsoft?:Excel-Word-Power Point-Skype
+;For what does the acronym IT stand?:Information Technology- Informatic Technology- Interesting Technology-Important Technology
+;Which university was Mark Zuckerberg attending when he launched Facebook?:Harvard-Canbrid-Oxford-LU
+;What does the acronym LCD stand for?:Liquid Crystal Display-Liquid Crystally Display-Liquid Crystal Displays-Liqid Crystal Display 
+;Which web browser is run by the Mozilla Corporation?:Firefox-Chrome-Adobe-Paint
+;What is the meaning of ‘CC’ with reference to E-mail?:Carbon copy-Cut cut- Come closer- can compleate
+;Which company in 2001, overtook Compaq as the largest supplier of home-use PCs?:Dell-Apple-Windows-Samsung
+;Presto is the layout engine for which browser?:Opera-Chrome-Apple-Adobe
+;What did Niklas Zennstrom and Janus Friis found?:Skype-Facebook-Instagram-Twitter
+;Who is considered to be The Father of Artificial Intelligence?:John McCarthy-Kenady-Roosewolt-Clinton
+;How many bits are there in a byte?:8-16-4-32
+;What was was created in March 2006 by Jack Dorsey?:Twitter-Google-Facebook-Instagram
